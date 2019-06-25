@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <Script type="text/javascript" src="./scripts/jquery-3.4.0.min.js"></Script>
+    <link rel="stylesheet" href="./style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Document</title>
+    <img src="./download.png" alt="">
+    <header> Universitas Indonesia </header>
+</head>
+<body>
+    <div class="row">
+    <div class="col-xs-2"> </div>
+    <div class="col-xs-8">
+    <form>
+        <div class="form-group">
+          <label for="Username">Username<label2>*</label2></label>
+          <input type="username" class="form-control" id="username" placeholder="Masukan Username">
+        </div>
+        <div class="form-group">
+          <label for="pass1">Password<label2>*</label2></label>
+          <input type="password" class="form-control" id="pass1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="pass2"> Ulangi Password</label>
+            <input type="password" class="form-control" id="pass2" placeholder="Ulangi Password">
+        </div>
+        <br>
+
+    <h2>Identitas Diri</h2>
+        <br>
+        <div class="form-group">
+            <label for="namaId">Masukan Nama Sesuai Identitas<label2>*</label2></label>
+            <input type="text" class="form-control" id="namaId" placeholder="Nama Lengkap">
+        </div>
+        <div class="form-group">
+            <label for="namaIjazah">Masukan Nama Sesuai Ijazah<label2>*</label2></label>
+            <input type="text" class="form-control" id="namaIjazah" placeholder="Nama Sesuai Ijazah">
+        </div> 
+        <div class="form-group">
+                <label for="selectList">Jenis Identitas<label2>*</label2>:</label>
+                <select id="selectList" name="--Pilih Jenis Identitas--">
+                  <option>SIM</option>
+                  <option>KTP</option>
+                  <option>Kartu Pelajar</option>
+                  <option>Paspor</option>
+                </select>
+        </div>
+        <div class="form-group">
+                <label for="nomorId">Masukan Nomor Identitas<label2>*</label2></label>
+                <input type="text" class="form-control" id="namaId" placeholder="Nomor Identitas">
+        </div>
+        <div class="form-group">
+                <label for="selectList2">Jenis Kewarganegaraan<label2>*</label2>:</label>
+                <select name="--Pilih Kewarganegaraan--" id="selectList2">
+                  <option>Indonesia</option>
+                  <option>Luar Negeri</option>
+                </select>
+        </div>
+        <div class="form-group">
+            <label>Jenis Kelamin<label2>*</label2></label>
+        <div class="radioKelamin">
+                <label><input type="radio" name="optradio" checked>Laki-Laki</label>
+        </div>
+        <div class="radioKelamin">
+                <label><input type="radio" name="optradio">Perempuan</label>
+        </div>
+        </div>
+        <div class="form-group">
+                <label for="tglLahir">tanggal Lahir</label>
+                <input type="date" id="tanggaLahir" name="trip-start"
+                min="1990-01-01" max="2090-12-12">
+        </div>
+
+        <h2>Kontak</h2>
+        <div class="form-group">
+                <label for="alamatTetap">Alamat Tetap<label2>*</label2></label>
+                <input type="text" class="form-control" id="alamatTetap" placeholder="Alamat Lengkap">
+        </div>
+        <div class="form-group">
+                <label for="selectListNegara">Pilih Negara:</label>
+                <select name="--Pilih Negara--" id="selectListNegara">
+                  <option>Indonesia</option>
+                  <option>Luar Negeri</option>
+                </select>
+        </div>
+        <div class="form-group">
+                <label for="selectListProvinsi">Pilih Kota:</label>
+                <select name="--Pilih Provinsi--" id="selectListProvinsi">
+                  <option>Jekardah</option>
+                  <option>Jawa Barat</option>
+                </select>
+        </div>
+        <div class="form-group">
+                <label for="kotaKab">Pilih Negara:</label>
+                <select name="--Pilih Kota/Kabupaten--" id="kotaKab">
+                  <option>Bekasi</option>
+                  <option>Bandung</option>
+                  <option>Kab.Bekasi</option>
+                </select>
+        </div>
+        <div class="form-group">
+                <label for="alamatId">Alamat Saat Ini<label2>*</label2></label>
+                <input type="text" class="form-control" id="alamatId" placeholder="Alamat Saat Ini">
+        </div>
+        <div class="form-group">
+                <label for="noTelpon">No. Telepon</label>
+                <input type="text" class="form-control" id="noTelpon" placeholder="Nomor Telepon">
+        </div>
+        <div class="form-group">
+                <label for="noHp">No. HP</label>
+                <input type="text" class="form-control" id="noHp" placeholder="Nomor Handphone">
+        </div>
+        <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukan Email">
+        </div>
+        <div class="form-group">
+                <label for="email"> Konfirmasi Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukan Ulang Email">
+        </div>
+            <button type="submit" class="btn btn-info" id="registerbtn">Submit</button>
+      </form>
+      </div>
+</body>
+</html>
